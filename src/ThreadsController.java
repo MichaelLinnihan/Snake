@@ -55,7 +55,7 @@ public class ThreadsController extends Thread {
 		 for(int i = 0;i<=positions.size()-2;i++){
 			 boolean biteItself = posCritique.getX()==positions.get(i).getX() && posCritique.getY()==positions.get(i).getY();
 			 if(biteItself){
-				stopTheGame();
+				
 			 }
 		 }
 		 
